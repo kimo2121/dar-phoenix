@@ -1,0 +1,27 @@
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-info p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.contact-info p a {
+  text-decoration: none;
+  color: gold;
+}
+.contact-info p a:hover {
+  color: rgb(165, 136, 63);
+}
+.form-intro {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10vw;
+  margin-bottom: 7vh;
+}
+@media only screen and (max-width: 900px) {
+  .form-intro {
+    align-items: center;
+    flex-direction: column;
+  }
+}

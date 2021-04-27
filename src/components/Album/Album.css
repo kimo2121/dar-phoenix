@@ -1,0 +1,35 @@
+.image-slider-component {
+  background: rgba(0, 0, 0, 0.87);
+  position: fixed !important;
+  z-index: 100000 !important;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  padding-top: 2%;
+}
+.slick-thumb {
+  top: 100%;
+}
+.slick-dots.slick-thumb {
+  margin: 0;
+  left: 0;
+}
+.slick-dots.slick-thumb li {
+  margin: 0 10px;
+  filter: grayscale(100%);
+  width: unset;
+  height: unset;
+}
+.slick-dots.slick-thumb li.slick-active {
+  filter: unset !important;
+}
+.image-in-thumb img {
+  margin: 2vh 0;
+  width: 60px;
+  height: 60px;
+}
+.each-image img {
+  margin: 0 auto;
+  width: 40vw;
+  height: 80vh;
+}

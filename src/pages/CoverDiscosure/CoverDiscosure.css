@@ -1,0 +1,13 @@
+.poster-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mockup-poster {
+  width: 50% !important;
+  height: 23vh !important;
+}
+.poster-container:hover {
+  cursor: pointer;
+}

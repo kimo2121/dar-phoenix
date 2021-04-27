@@ -1,0 +1,22 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  background-color: black;
+  text-align: center;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+.nav-bar-divider {
+  height: 29vh;
+}
+@media screen and (max-width: 768px) {
+  .nav-bar-divider {
+    height: 18vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav-bar-divider {
+    height: 13vh;
+  }
+}

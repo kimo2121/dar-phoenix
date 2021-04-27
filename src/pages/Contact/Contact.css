@@ -1,0 +1,47 @@
+.contact-info-container {
+  display: flex;
+  padding-top: 1vh;
+  font-weight: 600;
+}
+
+.contact-page {
+  background: #f7f9f8;
+  padding-bottom: 5vh;
+}
+
+.contact-address {
+  margin-top: 1.5vh;
+  width: 50%;
+}
+.contact-address p {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact-address a {
+  color: #0476d0;
+  margin-top: 0.5vh;
+  font-size: 16px;
+  text-decoration: none;
+}
+.contact-address a:hover {
+  color: #36a0f1;
+  text-decoration: underline;
+}
+.number-icon svg {
+  color: #0476d0;
+  vertical-align: middle;
+  margin-left: 0.5vw;
+}
+.our-facebook-url {
+  margin-top: 2vh;
+}
+@media only screen and (max-width: 768px) {
+  .contact-info-container {
+    flex-direction: column;
+  }
+  .contact-address {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+}

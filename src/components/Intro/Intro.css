@@ -1,0 +1,34 @@
+.intro-section {
+  width: 48%;
+}
+.intro-section img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+}
+.intro-section p {
+  color: white;
+  font-size: 14px;
+}
+.intro-icons {
+  display: flex;
+  justify-content: center;
+}
+.intro-icons img {
+  width: 35px;
+  transition: all 0.2s;
+}
+.intro-icons a {
+  margin: 0 0.3vw;
+}
+.intro-icons img:hover {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 900px) {
+  .intro-section {
+    width: 70%;
+  }
+  .intro-section img {
+    display: unset;
+  }
+}
