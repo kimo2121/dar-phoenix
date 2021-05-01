@@ -3,8 +3,6 @@
 }
 .intro-section img {
   width: 70%;
-  text-align: right;
-  object-fit: contain;
 }
 .intro-section p {
   color: white;
@@ -26,7 +24,7 @@
 }
 @media only screen and (max-width: 900px) {
   .intro-section {
-    width: 90%;
+    width: 100%;
   }
   .intro-section img {
     display: unset;
