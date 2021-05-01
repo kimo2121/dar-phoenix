@@ -2,10 +2,8 @@
   width: 48%;
 }
 .intro-section img {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  width: 70%;
+  text-align: right;
   object-fit: contain;
 }
 .intro-section p {
@@ -17,7 +15,7 @@
   justify-content: center;
 }
 .intro-icons img {
-  width: 35px;
+  width: 35px !important;
   transition: all 0.2s;
 }
 .intro-icons a {
@@ -28,9 +26,10 @@
 }
 @media only screen and (max-width: 900px) {
   .intro-section {
-    width: 70%;
+    width: 90%;
   }
   .intro-section img {
     display: unset;
+    width: 100%;
   }
 }
