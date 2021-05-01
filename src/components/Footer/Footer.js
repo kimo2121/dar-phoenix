@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import FooterNav from "../FooterNav/FooterNav";
 const Footer = () => {
   return (
     <div className="footer">
