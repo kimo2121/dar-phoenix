@@ -24,7 +24,6 @@ const HomePage = () => {
           <Link to="#">DarPhoniex@gmail.com</Link>
         </p>
       </div>
-      <div className="map"></div>
       <div className="form-intro">
         <Intro />
         <ContactForm />

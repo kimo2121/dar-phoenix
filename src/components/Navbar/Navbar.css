@@ -131,27 +131,6 @@
 .drop-down-more:hover .dropdown-content {
   display: block;
 }
-#contact,
-#store,
-#preview,
-#writers,
-#video {
-  display: none;
-  color: white;
-  text-decoration: unset;
-  text-align: right;
-  margin: 0vh 0.5vw 2vh 1vw;
-}
-#contact:hover,
-#store:hover,
-#preview:hover,
-#writers:hover,
-#video:hover,
-.dropmenu-active-link,
-.active-burger-link,
-.burger-nav-links a:hover {
-  color: gold !important;
-}
 
 .burger-menu-component {
   display: none;

@@ -20,6 +20,9 @@
   margin-bottom: 7vh;
 }
 @media only screen and (max-width: 900px) {
+  .contact-info {
+    flex-direction: column;
+  }
   .form-intro {
     align-items: center;
     flex-direction: column;

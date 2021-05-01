@@ -1,16 +1,8 @@
 import React, { useState } from "react";
 import * as RiIcons from "react-icons/ri";
-import * as IoIcons from "react-icons/io";
-import YouTube from "react-youtube";
-import ReactPlayer from "react-player/lazy";
-// import { NextArrow, PrevArrow } from "../VideoSlider/VideoSlider";
 import "./Banner.css";
 import videoData from "./VideoData";
 import Slider from "react-slick";
-const _onReady = (event) => {
-  // access to player in all event handlers via event.target
-  event.target.pauseVideo();
-};
 
 const Banner = () => {
   const [playing, setPlaying] = useState(false);
@@ -43,17 +35,6 @@ const Banner = () => {
       </div>
     );
   };
-  // const nextVideo = () => {
-  //   setIndex((prevIndex) => prevIndex + 1);
-  //   setVideo({ ...video, currentVideo: videoData[index] });
-  //   console.log(index);
-  // };
-  // console.log(video.currentVideo);
-  // const prevVideo = () => {
-  //   setIndex((prevIndex) => prevIndex - 2);
-  //   setVideo({ ...video, currentVideo: videoData[index] });
-  //   console.log(index);
-  // };
   const settings = {
     dots: false,
     infinite: false,
@@ -106,15 +87,6 @@ const Banner = () => {
     <div className="banner-component">
       <Slider className="video-slider" {...settings}>
         {videoData.map((item, indx) => (
-          // <YouTube videoId={item.id} />
-          // <VideoPlayer slider key={indx} indx={indx} item={item.url} />
-          // <ReactPlayer playing={playing} url={item.url} />
-          // <video width="320" height="240" controls>
-          //   <source src={item.url} type="video/mp4" />
-          //   {/* <source src="movie.ogg" type="video/ogg" /> */}
-
-          // </video>
-          // <iframe width="420" height="315" src={item.url}></iframe>
           <iframe
             key={indx}
             width="727"

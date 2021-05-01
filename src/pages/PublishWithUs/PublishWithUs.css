@@ -1,13 +1,17 @@
+.publish-with-us {
+  padding: 0;
+  margin-top: 5vh;
+}
 .publish-with-us li {
   color: white;
   text-align: center;
   list-style: inside decimal;
 }
 .each-service {
-  margin: auto;
-  margin-bottom: 4vh;
-  font-size: 30px;
-  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+  font-size: 4vw;
+  width: 70%;
   border-radius: 10px;
   border: 1px solid white;
   box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.205);
@@ -19,4 +23,5 @@
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   width: 100%;
+  object-fit: contain;
 }
