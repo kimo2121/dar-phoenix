@@ -11,7 +11,6 @@ const MarketingData = [
   { text: "حفل-توقيع", to: "/حفل-توقيع", name: "home" },
   { text: "اعلان-عن-اغلفة", to: "/اعلان-عن-اغلفة", name: "home" },
   { text: "برومو-روايات", to: "/برومو-روايات", name: "home" },
-  { text: "الرئيسية", to: "/", name: "home" },
   { text: "مقابلات-تلفزيونية", to: "/مقابلات-تلفزيونية", name: "home" },
 ];
 export default MarketingData;

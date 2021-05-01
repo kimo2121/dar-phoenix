@@ -4,11 +4,10 @@ import FooterNav from "../FooterNav/FooterNav";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-right">
-        <h3>almaktaba</h3>
+      <div className="footer-content">
+        <h3>Dar Phoniex For P.D.T</h3>
         <span>حقوق النشر © 2021 جميع الحقوق محفوظة</span>
       </div>
-      <FooterNav />
     </div>
   );
 };

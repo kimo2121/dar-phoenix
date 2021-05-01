@@ -13,21 +13,14 @@
   width: 10%;
 }
 
-.fields-label-input label,
-.discrption label {
+.fields-label-input label {
   font-weight: 700;
   display: block;
   color: white;
   text-align: right;
 }
-.discrption label {
-  width: 92%;
-  margin: 0 auto;
-}
-
-.send-form {
-  margin-top: 0vh !important;
-  position: relative;
+.contactPage label {
+  color: black !important;
 }
 .submit-form {
   outline: unset;
@@ -44,6 +37,9 @@
   font-weight: 400;
   transition: background-color 0.35s;
   width: 80%;
+}
+.contactPage {
+  color: black;
 }
 .name-phone-fields input {
   margin: 0 auto;
@@ -85,14 +81,4 @@
   .slider-contact-component {
     width: 80%;
   }
-  /* .name-phone-fields {
-    flex-direction: column;
-    align-items: center;
-  }
-  .fullname-email input {
-    width: 57vw !important;
-  }
-  .slider-contanct-header {
-    width: 84%;
-  } */
 }

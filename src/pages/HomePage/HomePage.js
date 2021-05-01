@@ -1,20 +1,15 @@
 import React from "react";
 import "./HomePage.css";
-import Contact from "../Contact/Contact";
-import Banner2 from "../../components/Banner/banner2";
 import Banner from "../../components/Banner/Banner";
 import { Link } from "react-router-dom";
 import Intro from "../../components/Intro/Intro";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import SliderContact from "../../components/SliderContact/SliderContact";
 import Map from "../../components/Map/Map";
-import LocationOnMap from "../../components/Map2/Map2";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <Banner />
-      {/* <Banner2 /> */}
       <div className="contact-info">
         <p>
           Call us
@@ -34,15 +29,7 @@ const HomePage = () => {
         <Intro />
         <ContactForm />
       </div>
-      {/* <About firstHomePage />
-      <Retails secondHomePage />
-      <Ourwriters thirdHomePage />
-      <TheVideos fourthHomePage />
-      <PeoplePreview fifthHomePage />
-      <BookStore sixthHomePage />
-      <Contact seventhHomePage /> */}
-      {/* <Map /> */}
-      <LocationOnMap />
+      <Map />
     </div>
   );
 };

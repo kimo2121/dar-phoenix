@@ -10,7 +10,6 @@ export const linksdata = [
   { text: "انشر معنا", to: "/انشر-معنا", name: "" },
   { text: "خدماتنا المميزة", to: "/خدماتنا-المميزة", name: "retails" },
   { text: "دعاية و تسويق", to: "/دعاية-و-تسويق", name: "video" },
-  { text: "منافذ التوزيع", to: "/منافذ-التوزيع", name: "preview" },
   { text: "مؤسسة اكون للابداع", to: "/مؤسسة-اكون-للابداع", name: "akonorg" },
   { text: "اتصل بنا", to: "/الاتصال", name: "contact" },
 ];
@@ -21,7 +20,6 @@ export const linksdata2 = [
   { text: "انشر معنا", to: "/انشر-معنا", name: "" },
   { text: "خدماتنا المميزة", to: "/خدماتنا-المميزة", name: "retails" },
   { text: "دعاية و تسويق", to: "/دعاية-و-تسويق", name: "video" },
-  { text: "منافذ التوزيع", to: "/منافذ-التوزيع", name: "preview" },
   { text: "مؤسسة اكون للابداع", to: "/مؤسسة-اكون-للابداع", name: "akonorg" },
   { text: "اتصل بنا", to: "/الاتصال", name: "contact" },
 ];

@@ -10,7 +10,7 @@
 .nav-bar-divider {
   height: 29vh;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .nav-bar-divider {
     height: 18vh;
   }
