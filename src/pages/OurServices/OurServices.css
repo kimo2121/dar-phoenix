@@ -2,11 +2,13 @@
   padding: 0 10vw;
   color: white;
   list-style: decimal;
+  font-size: 25px;
   margin: 0 auto;
 }
 
 .our-services-page p {
   color: white;
+  font-size: 18px;
   margin: 5vh 0;
 }
 .each-topic {
