@@ -1,375 +1,184 @@
+import amal from "../../assets/writers/amal.jpeg";
+import salafa from "../../assets/writers/salafa.jpeg";
+import aml from "../../assets/writers/aml.jpeg";
+import weaam from "../../assets/writers/weaam.jpeg";
+import adel from "../../assets/writers/adel.jpeg";
+import shamia from "../../assets/writers/shamia.jpeg";
+import eman from "../../assets/writers/eman.jpeg";
+import hala from "../../assets/writers/hala.jpeg";
+import yasser from "../../assets/writers/yasser.jpeg";
+import abbi from "../../assets/writers/abbi.jpeg";
+import myas from "../../assets/writers/myas.jpeg";
+import salha from "../../assets/writers/salha.jpeg";
+import amlnasser from "../../assets/writers/amlnasser.jpeg";
+import soma from "../../assets/writers/soma.jpeg";
+import amlshafie from "../../assets/writers/amlshafie.jpeg";
+import maan from "../../assets/writers/maan.jpeg";
+import somaia from "../../assets/writers/somaia.jpeg";
+import norseen from "../../assets/writers/norseen.jpeg";
 export const countriesdata = [
   { name: "مصر", country: "egypt" },
   { name: "سوريا", country: "syria" },
-  { name: "ليبيا", country: "libia" },
+  // { name: "ليبيا", country: "libia" },
   { name: "الجزائر", country: "gaza`er" },
-  { name: "فلسطين", country: "palastine" },
+  // { name: "فلسطين", country: "palastine" },
   { name: "المغرب", country: "morocco" },
   { name: "السعودية", country: "saudi" },
-  { name: "اليمن", country: "yemen" },
+  { name: "الصومال", country: "somalia" },
   { name: "العراق", country: "iraq" },
 ];
 
 export const WritersData = [
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a277131f1.jpg",
-    name: "هشام عيد",
-    books: "نصوص ذهبية-البطء",
-    facebook: "https://www.facebook.com/hishameid20",
+    img: amal,
+    name: "الأستاذة آمال بلهول",
+    books: `من مواليد 13 / 04 / 1986 بسطيف / الجزائر 
+    خريجة كلية الحقوق في جامعة منتوري بقسنطينة سنة 2010 _ لسانس قانون عقاري 
+    حاصلة على شهادة ماستر 2 _ قانون التوثيق بنفس الجامعة سنة 2012
+    متحصلة على شهادة الكفاءة المهنية للمحاماة سنة 2013 
+    تشغل حاليا منصب موظفة مكلفة بالدراسات في مؤسسة عمومية`,
+    // facebook: "https://www.facebook.com/hishameid20",
+    country: "gaza`er",
+  },
+  {
+    img: salafa,
+    name: "سلافة محمد حسن",
+    books:
+      "حاصلة علي بكاليريوس الخدمة الاجتماعية ودبلوما في مصرية عاشقة للكتابة وحائزة علي مسابقة الدكتورة سعاد الصباح للابداع الفكري والادبي عن نقد لافضل عشر روايات ادبية",
+    // facebook: "https://www.facebook.com/hishameid20",
     country: "egypt",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a277131f1.jpg",
-    name: "هشام عيد",
-    books: "نصوص ذهبية-البطء",
-    facebook: "https://www.facebook.com/hishameid20",
-    country: "egypt",
+    img: aml,
+    name: "أمل موسى",
+    books: `من مواليد السعودية في شهر ديسمبر 1992 ، خريجة كلية إدارة الأعمال في جامعة جازان،
+    كانت بدايتي الفعلية في الكتابة منذ ١٢ سنة و انا بعمر ١٧ عاماً و مازال حلمي يتربع العرش دون اضمحلال الى أن وصلت إليكم اليوم لأقدم لكم روايتي"سلسلة عالم الداركنيس بجزئها الأول" بعنوان"وليد الظلام و لعنة الظِل`,
+    // facebook: "https://www.facebook.com/hishameid20",
+    country: "saudi",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a277131f1.jpg",
-    name: "هشام عيد",
-    books: "نصوص ذهبية-البطء",
-    facebook: "https://www.facebook.com/hishameid20",
-    country: "egypt",
+    img: weaam,
+    name: "وئام أحمد",
+    books: `كاتبة سورية من مدينة الياسمين
+    خريجة لغة عربية 
+    و خريجة رياض أطفال
+    كاتبة قصص و خواطر وروايات 
+    معلمة لغة عربية و موجهة تعليمية، مديرة العلاقات العامة في مبادرة أكون للابداع العربي
+    ووكيلة دار العنقاء للنشر والتوزيع`,
+    // facebook: "https://www.facebook.com/hishameid20",
+    country: "syria",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a277131f1.jpg",
-    name: "هشام عيد",
-    books: "نصوص ذهبية-البطء",
-    facebook: "https://www.facebook.com/hishameid20",
-    country: "egypt",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a277131f1.jpg",
-    name: "هشام عيد",
-    books: "نصوص ذهبية-البطء",
-    facebook: "https://www.facebook.com/hishameid20",
-    country: "egypt",
+    img: adel,
+    name: "عادل عبيد فحل",
+    books:
+      "عادل عبيد فحل من مواليد بغداد عام 1964م أكملت دراستي الابتدائية والمتوسطة والثانوية في بغداد وتخرجت من جامعة بغداد كلية التربية قسم اللغة العربية متزوج ولدي ولدان وثلاث بنات.. بدأت كتابة الشعر العمودي بعمر العشرين عاما وقبلها كانت محاولات في الشعر الحر والخواطر.. موظف في وزارة الإعمار والإسكان.",
+    // facebook: "https://www.facebook.com/hishameid20",
+    country: "iraq",
   },
 
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7bdfa65b45c.jpg",
-    name: "صفاء صابر البياتي",
-    books: "المقامات اليابانية",
-    facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "iraq",
+    img: shamia,
+    name: "شيماء سعيد (الفراشه)",
+    books:
+      "كاتبة مصرية تبلغ  : 19 سنه. ، مؤهلها : خدمه اجتماعيه. ، أعمالها : قاسي أحب طفلة.. ذبحني معشوقي..",
+    // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
+    country: "egypt",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7bdfa65b45c.jpg",
-    name: "صفاء صابر البياتي",
-    books: "المقامات اليابانية",
-    facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "iraq",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7bdfa65b45c.jpg",
-    name: "صفاء صابر البياتي",
-    books: "المقامات اليابانية",
-    facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "iraq",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7bdfa65b45c.jpg",
-    name: "صفاء صابر البياتي",
-    books: "المقامات اليابانية",
-    facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "iraq",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7bdfa65b45c.jpg",
-    name: "صفاء صابر البياتي",
-    books: "المقامات اليابانية",
-    facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "iraq",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7beda268886.jpg",
-    name: "عزالدين جعفري",
-    books: "أروقة الحرية",
-    facebook: "https://www.facebook.com/azedine.djafri",
-    country: "gaza`er",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7beda268886.jpg",
-    name: "عزالدين جعفري",
-    books: "أروقة الحرية",
-    facebook: "https://www.facebook.com/azedine.djafri",
-    country: "gaza`er",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7beda268886.jpg",
-    name: "عزالدين جعفري",
-    books: "أروقة الحرية",
-    facebook: "https://www.facebook.com/azedine.djafri",
-    country: "gaza`er",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7beda268886.jpg",
-    name: "عزالدين جعفري",
-    books: "أروقة الحرية",
-    facebook: "https://www.facebook.com/azedine.djafri",
-    country: "gaza`er",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e7beda268886.jpg",
-    name: "عزالدين جعفري",
-    books: "أروقة الحرية",
-    facebook: "https://www.facebook.com/azedine.djafri",
-    country: "gaza`er",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a993016561b0.jpg",
-    name: "معتز بن حميد",
-    books: "رسائل الفردوس - المران",
-    facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "libia",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a993016561b0.jpg",
-    name: "معتز بن حميد",
-    books: "رسائل الفردوس - المران",
-    facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "libia",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a993016561b0.jpg",
-    name: "معتز بن حميد",
-    books: "رسائل الفردوس - المران",
-    facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "libia",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a993016561b0.jpg",
-    name: "معتز بن حميد",
-    books: "رسائل الفردوس - المران",
-    facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "libia",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a993016561b0.jpg",
-    name: "معتز بن حميد",
-    books: "رسائل الفردوس - المران",
-    facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "libia",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e824ea15bd2b.jpg",
-    name: "علا الجبر",
-    books: "حواجز - بث مباشر من أورشليم",
-    facebook: "https://www.facebook.com/ola.jbr",
+    img: eman,
+    name: "ايمان الرمضان",
+    books:
+      "من مواليد سوريا حلب نهاية العام ١٩٨٨ .. خريجة كلية الهندسة المعلوماتية في جامعة حلب .. و مؤلفة رواية اللعنة المقدسة",
+    // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
     country: "syria",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e824ea15bd2b.jpg",
-    name: "علا الجبر",
-    books: "حواجز - بث مباشر من أورشليم",
-    facebook: "https://www.facebook.com/ola.jbr",
+    img: hala,
+    name: "حلا العنزي",
+    books:
+      " مواليد السعودية وُلِدتُ في عام ١٩٩٨ في اليوم الثامن من شهر فبراير  ، حاصِلَة على درجة البكالوريوس في التمريض وعلى مرتبة الشرف الثانية وأملك عدة شهادات تفوّق .",
+    // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
+    country: "saudi",
+  },
+  {
+    img: yasser,
+    name: "ياسر عبدالحميد",
+    books:
+      "مواليد  مدينة بورسعيد . تخرج من كلية العلوم عام 1991 . قسم الجيولوجيا والكيمياء . جامعة المنصورة . أحب الأدب والقراءة من صغره . وبدأ في كتابة أعماله  بعد تخرجه. مزج الدراسة العلمية بأسلوبه حتي قدم لنا هذه الرواية الأدبية. التي تدور أحداثها الحقيقية في الفترة من عام 1900 وحتي 1990 يرويها الأبناء عن الآباء والاجداد",
+    // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
+    country: "egypt",
+  },
+  {
+    img: abbi,
+    name: "عبي يوسف",
+    books: `حاصل على شهادة اجازة في الاقتصاد ، حاصل على شهادة في الصحافة، صحفي باحدى المنابر الاعلامية، صاحب مشروع "موهبتي رأس مالي " لتشغيل الشباب عن طريق الموهبة، صاحب جمعية طريق النجاح ، مسير مدرسة خاصة ، ابن مدينة ازرو (الصخرة) ، ترعرعت في مدينة مكناس ، من المملكة المغربية الشريفة،`,
+    // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
+    country: "morocco",
+  },
+  {
+    img: myas,
+    name: "مياس وليد عرفه",
+    books: `مواليد 1991 من سوريا وتحديدا من الريف الدمشقي - مدينة التل-
+    الكتابة بالنسبة لي روحٌ اتذوق من خلالها طعم الحياة.
+    أعيش حاليا في المملكة العربية السعودية.`,
+    // facebook: "https://www.facebook.com/azedine.djafri",
     country: "syria",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e824ea15bd2b.jpg",
-    name: "علا الجبر",
-    books: "حواجز - بث مباشر من أورشليم",
-    facebook: "https://www.facebook.com/ola.jbr",
+    img: salha,
+    name: "صالحة الالمعي",
+    books:
+      "مواليد ابها- السعودية ، خريجة بكالريوس محاسبة، العمر اثنان وعشرون ربيعاً، كاتبه منذ الطفولة صاحبة خيال جامح وكلمات تعبر إلى دواخل القُراء،  كاتبة قصص قصيرة، وروايات.",
+    // facebook: "https://www.facebook.com/azedine.djafri",
+    country: "saudi",
+  },
+  {
+    img: amlnasser,
+    name: "امل ناصر",
+    books: `كاتبه روائية مصرية، 
+    تبلغ من العمر 23عامأ ، لقد صدر لها العديد من الأعمال الإلكترونية ، اخرها تم تحويله لسلسلة ورقية روائية بعنوان الديزل و التوأمان`,
+    // facebook: "https://www.facebook.com/azedine.djafri",
+    country: "egypt",
+  },
+  {
+    img: soma,
+    name: "سوما العربي ابراهيم",
+    books:
+      "من مصر -  محافظة المنوفيه ، خريجه اداب قسم آثار مصريه ، لها العديد من إصدارات الكترونية آخرها مطبوع ورقي بعنوان : لا تبكي عزيزتي",
+    // facebook: "https://www.facebook.com/azedine.djafri",
+    country: "egypt",
+  },
+  {
+    img: amlshafie,
+    name: "أمل الشافعي",
+    books: ` من مصر - مدينة زقاويق ، حاصلة علة ماجستير صحة نفسية - مرشد نفسي - مترجم لغه إشارة معتمد
+    عضو عامل بالجمعية العلمية للصحة النفسية -عضو مؤسس للجمعية المصرية للخدمات النفسية المتكاملة ، وصدر لها رواية : رحيل جبري`,
+    // facebook: "https://www.facebook.com/azedine.djafri",
+    country: "egypt",
+  },
+  {
+    img: maan,
+    name: "معن فهد الحمودي",
+    books:
+      "،عمري ثلاثة وثلاثون عاماً، أعيش في سوريا، أعمل موظفاً،أعيش في عائلةً دافئة التفاصيل ولديّ معنيّات والكثير الكثير من الأمل في قلبي.. لي اصدار كتاب خواطر : معنيات",
+    // facebook: "https://www.facebook.com/moutaz.hameid",
     country: "syria",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e824ea15bd2b.jpg",
-    name: "علا الجبر",
-    books: "حواجز - بث مباشر من أورشليم",
-    facebook: "https://www.facebook.com/ola.jbr",
-    country: "syria",
+    img: somaia,
+    name: "سمية عامر زين العابدين",
+    books: `طالبه في كليه الاداب جامعة القاهرة ؛ من جمهورية مصر العربية ، مواليد 23/3/2001،
+    من كتاباتها :( أنتِ لي ، مُر قلبي ،ل انها أنتِ ، زوجة اخي )`,
+    // facebook: "https://www.facebook.com/moutaz.hameid",
+    country: "egypt",
   },
   {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e824ea15bd2b.jpg",
-    name: "علا الجبر",
-    books: "حواجز - بث مباشر من أورشليم",
-    facebook: "https://www.facebook.com/ola.jbr",
-    country: "syria",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a2a8885a7.jpg",
-    name: "ليلى حسن",
-    books: "حيث رقص اللهب",
-    facebook: "https://www.facebook.com/profile.php?id=100015774663334",
-    country: "palastine",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a2a8885a7.jpg",
-    name: "ليلى حسن",
-    books: "حيث رقص اللهب",
-    facebook: "https://www.facebook.com/profile.php?id=100015774663334",
-    country: "palastine",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a2a8885a7.jpg",
-    name: "ليلى حسن",
-    books: "حيث رقص اللهب",
-    facebook: "https://www.facebook.com/profile.php?id=100015774663334",
-    country: "palastine",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a2a8885a7.jpg",
-    name: "ليلى حسن",
-    books: "حيث رقص اللهب",
-    facebook: "https://www.facebook.com/profile.php?id=100015774663334",
-    country: "palastine",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a99a2a8885a7.jpg",
-    name: "ليلى حسن",
-    books: "حيث رقص اللهب",
-    facebook: "https://www.facebook.com/profile.php?id=100015774663334",
-    country: "palastine",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a999d1a1a4ee.jpg",
-    name: "ياسين كني",
-    books: "تيغالين",
-    facebook: "https://www.facebook.com/yassine.guenni.83",
-    country: "morocco",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a999d1a1a4ee.jpg",
-    name: "ياسين كني",
-    books: "تيغالين",
-    facebook: "https://www.facebook.com/yassine.guenni.83",
-    country: "morocco",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a999d1a1a4ee.jpg",
-    name: "ياسين كني",
-    books: "تيغالين",
-    facebook: "https://www.facebook.com/yassine.guenni.83",
-    country: "morocco",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a999d1a1a4ee.jpg",
-    name: "ياسين كني",
-    books: "تيغالين",
-    facebook: "https://www.facebook.com/yassine.guenni.83",
-    country: "morocco",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5a999d1a1a4ee.jpg",
-    name: "ياسين كني",
-    books: "تيغالين",
-    facebook: "https://www.facebook.com/yassine.guenni.83",
-    country: "morocco",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_crop_5a99a301c17f1_5a99a2ede4d38.jpg",
-    name: "منى محمد سليمان",
-    books: "بين قلبين - غريبة بجوارك",
-    facebook: "https://www.facebook.com/mona.mh.777701",
-    country: "saudi",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_crop_5a99a301c17f1_5a99a2ede4d38.jpg",
-    name: "منى محمد سليمان",
-    books: "بين قلبين - غريبة بجوارك",
-    facebook: "https://www.facebook.com/mona.mh.777701",
-    country: "saudi",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_crop_5a99a301c17f1_5a99a2ede4d38.jpg",
-    name: "منى محمد سليمان",
-    books: "بين قلبين - غريبة بجوارك",
-    facebook: "https://www.facebook.com/mona.mh.777701",
-    country: "saudi",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_crop_5a99a301c17f1_5a99a2ede4d38.jpg",
-    name: "منى محمد سليمان",
-    books: "بين قلبين - غريبة بجوارك",
-    facebook: "https://www.facebook.com/mona.mh.777701",
-    country: "saudi",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_crop_5a99a301c17f1_5a99a2ede4d38.jpg",
-    name: "منى محمد سليمان",
-    books: "بين قلبين - غريبة بجوارك",
-    facebook: "https://www.facebook.com/mona.mh.777701",
-    country: "saudi",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e6a74e430f22.jpg",
-    name: "ذويزن الشرجبي",
-    books: "جريمة في الشارع الرئيسي",
-    facebook: "https://www.facebook.com/profile.php?id=100001621547612",
-    country: "yemen",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e6a74e430f22.jpg",
-    name: "ذويزن الشرجبي",
-    books: "جريمة في الشارع الرئيسي",
-    facebook: "https://www.facebook.com/profile.php?id=100001621547612",
-    country: "yemen",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e6a74e430f22.jpg",
-    name: "ذويزن الشرجبي",
-    books: "جريمة في الشارع الرئيسي",
-    facebook: "https://www.facebook.com/profile.php?id=100001621547612",
-    country: "yemen",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e6a74e430f22.jpg",
-    name: "ذويزن الشرجبي",
-    books: "جريمة في الشارع الرئيسي",
-    facebook: "https://www.facebook.com/profile.php?id=100001621547612",
-    country: "yemen",
-  },
-  {
-    img:
-      "https://static.s123-cdn-static.com/uploads/969286/800_5e6a74e430f22.jpg",
-    name: "ذويزن الشرجبي",
-    books: "جريمة في الشارع الرئيسي",
-    facebook: "https://www.facebook.com/profile.php?id=100001621547612",
-    country: "yemen",
+    img: norseen,
+    name: "نورسين محمد",
+    books:
+      "كاتبة و روائية صومالية ، ولدت في عاصمة الصومال مقديشو وبسبب حرب الأهلية انتقلت الى موطنها الثاني - الإمارات العربية المتحدة  . مدير عام لمؤسسة  أكون أو أكون للابداع العربي .،  مدير عام لدار العنقاء للنشر و توزيع و الترجمة ، و هي دار نشر عربية مركزها في مصر- القاهرة.",
+    // facebook: "https://www.facebook.com/moutaz.hameid",
+    country: "somalia",
   },
 ];

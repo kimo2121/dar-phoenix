@@ -16,3 +16,21 @@
   line-height: 1.5;
   width: 50%;
 }
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.sponsors-iamge img {
+  display: block;
+  /* border-radius: 50%; */
+  margin: 0 1vw;
+  width: 80px;
+}
+.about-first {
+  padding: 0 10vw;
+}
+.about-continer span {
+  font-size: 25px;
+}

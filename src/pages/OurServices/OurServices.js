@@ -7,7 +7,10 @@ const OurServices = () => {
     <div className="our-services-page">
       <div className="our-services-container">
         {ServicesData.map((item, indx) => (
-          <p>{item.text}</p>
+          <li className="each-topic">
+            <span>{item.title}</span>
+            <p>{item.text}</p>
+          </li>
         ))}
       </div>
     </div>

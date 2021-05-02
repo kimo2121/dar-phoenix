@@ -40,10 +40,10 @@ const Ourwriters = () => {
               </div>
               <p>{item.name}</p>
               <div className="divider2"></div>
-              <span>{item.books}</span>
-              <Link to={item.facebook}>
+              <p className="writer-bio">{item.books}</p>
+              {/* <Link to={item.facebook}>
                 <FaFacebookF size={28} />
-              </Link>
+              </Link> */}
             </div>
           )
         )}
