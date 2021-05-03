@@ -10,7 +10,7 @@ const PublishWithUs = () => {
           <li className="numeric-li">
             <div key={indx} className="each-service">
               <img src={item.img} alt="" />
-              <span>{item.text}</span>
+              <p>{item.text}</p>
             </div>
           </li>
         ))}
