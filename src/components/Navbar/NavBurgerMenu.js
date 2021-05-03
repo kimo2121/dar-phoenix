@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as FiIcons from "react-icons/fi";
 import * as AiIcons from "react-icons/ai";
-import "../SliderMenu/SliderMenu.css";
+import "./NavBurgerMenu.css";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { linksdata, linksdata2 } from "./Data";
@@ -9,10 +9,11 @@ import { changeLink } from "../../redux/navbar/navbar.actions";
 import { useDispatch, useSelector } from "react-redux";
 import Logo from "../../assets/logo2.png";
 import { IconContext } from "react-icons";
-import facebook from "../../assets/facebook.svg";
-import twitter from "../../assets/twitter.svg";
-import instagram from "../../assets/instagram.svg";
-import youtube from "../../assets/youtube.svg";
+import facebook from "../../assets/facebook.png";
+import twitter from "../../assets/twitter.png";
+import instagram from "../../assets/instagram.png";
+import youtube from "../../assets/youtube.png";
+import whatsapp from "../../assets/whatsapp.png";
 
 function NavBurgerMenu() {
   const [sidebar, setSidebar] = useState(false);
@@ -70,6 +71,9 @@ function NavBurgerMenu() {
               </Link>
               <Link to="#">
                 <img src={youtube} alt="" />
+              </Link>
+              <Link to="#">
+                <img src={whatsapp} alt="" />
               </Link>
             </div>
           </nav>

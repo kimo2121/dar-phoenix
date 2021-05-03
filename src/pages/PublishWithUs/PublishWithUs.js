@@ -7,12 +7,12 @@ const PublishWithUs = () => {
     <div>
       <ul className="publish-with-us">
         {Data.map((item, indx) => (
-          <div key={indx} className="each-service">
-            <li>
-              {item.text}
+          <li className="numeric-li">
+            <div key={indx} className="each-service">
               <img src={item.img} alt="" />
-            </li>
-          </div>
+              <span>{item.text}</span>
+            </div>
+          </li>
         ))}
       </ul>
     </div>

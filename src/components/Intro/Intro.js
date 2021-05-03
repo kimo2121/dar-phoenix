@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "../../assets/logo2.png";
 import "./Intro.css";
-import facebook from "../../assets/facebook.svg";
-import twitter from "../../assets/twitter.svg";
-import instagram from "../../assets/instagram.svg";
-import youtube from "../../assets/youtube.svg";
+import facebook from "../../assets/facebook.png";
+import twitter from "../../assets/twitter.png";
+import instagram from "../../assets/instagram.png";
+import youtube from "../../assets/youtube.png";
+import whatsapp from "../../assets/whatsapp.png";
 import { Link } from "react-router-dom";
 const Intro = () => {
   return (
@@ -30,6 +31,9 @@ const Intro = () => {
         </Link>
         <Link to="#">
           <img src={youtube} alt="" />
+        </Link>
+        <Link to="#">
+          <img src={whatsapp} alt="" />
         </Link>
       </div>
     </div>

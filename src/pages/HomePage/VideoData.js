@@ -1,4 +1,4 @@
-export const videoData = [
+const videoData = [
   {
     name:
       "لحظة توقيع عقد رواية قمر و الثوب الابيض للكاتب المصري ياسر عبدالحميد",

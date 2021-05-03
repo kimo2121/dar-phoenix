@@ -1,17 +1,29 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../../components/Page-Header/PageHeader";
+import * as AiIcons from "react-icons/ai";
 import "./Ourwriters.css";
 import { countriesdata, WritersData } from "./WritersData";
-import { FaFacebookF } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
 const Ourwriters = () => {
-  const [writers, setWriter] = useState({
-    chosenC: "egypt",
-    countries: countriesdata,
+  // const [writers, setWriter] = useState({
+  //   chosenC: "egypt",
+  //   countries: countriesdata,
+  // });
+  // const onClickFilter = (country) => {
+  //   setWriter({ ...writers, chosenC: country });
+  //   console.log(writers);
+  // };
+  const [writers, setWriters] = useState({
+    currentWriter: {},
+    all: WritersData,
   });
-  const onClickFilter = (country) => {
-    setWriter({ ...writers, chosenC: country });
-    console.log(writers);
+  const [more, setMore] = useState(false);
+  const [bio, setBio] = useState({});
+  const showMore = (indx) => {
+    setMore(!more);
+    setWriters({ ...writers, currentWriter: writers.all[indx] });
+    // setBio(writers.filter((_, i) => i === indx));
   };
   // const [navlink, setNavlink] = useState("home");
   // const onLinkHandler = (name) => {
@@ -20,7 +32,7 @@ const Ourwriters = () => {
   return (
     <div className="ourwriters-page">
       <PageHeader Children={"كتّاب الدار"} />
-      <div className="countries-filter">
+      {/* <div className="countries-filter">
         {writers.countries.map((item, indx) => (
           <button
             onClick={() => onClickFilter(item.country)}
@@ -30,22 +42,45 @@ const Ourwriters = () => {
             {item.name}
           </button>
         ))}
-      </div>
+      </div> */}
       <div className="writers-intro">
-        {WritersData.filter((item) => item.country === writers.chosenC).map(
-          (item, indx) => (
-            <div key={indx} className="each-writer-intro">
-              <div className="image-circle">
-                <img className="image" src={item.img} alt="" />
-              </div>
-              <p>{item.name}</p>
-              <div className="divider2"></div>
-              <p className="writer-bio">{item.books}</p>
-              {/* <Link to={item.facebook}>
-                <FaFacebookF size={28} />
-              </Link> */}
+        {writers.all.map((item, indx) => (
+          <div key={indx} className="each-writer-intro">
+            <div className="image-circle">
+              <img className="image" src={item.img} alt="" />
             </div>
-          )
+            <p>{item.name}</p>
+            <div className="divider2"></div>
+            <p className="writer-bio">
+              {item.books.slice(0, 90)}...{" "}
+              <span className="read-more" onClick={() => showMore(indx)}>
+                اقرا المزيد
+              </span>
+            </p>
+          </div>
+        ))}
+        {more && (
+          <div className="more-details-container">
+            <AiIcons.AiOutlineClose
+              onClick={showMore}
+              className={"close-details active"}
+              size="30"
+            />
+            <div className="more-details each-writer-intro">
+              <div className="image-circle">
+                <img
+                  className="image image-more"
+                  src={writers.currentWriter.img}
+                  alt=""
+                />
+              </div>
+              <p>{writers.currentWriter.name}</p>
+              <div className="divider2"></div>
+              <p className="writer-bio more-bio">
+                {writers.currentWriter.books}
+              </p>
+            </div>
+          </div>
         )}
       </div>
     </div>

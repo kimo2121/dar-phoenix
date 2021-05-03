@@ -9,7 +9,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* justify-content: space-evenly; */
 }
 
 .countries-filter button,
@@ -54,7 +53,7 @@
   justify-content: center;
 }
 .each-writer-intro {
-  width: 350px;
+  width: 300px;
   height: fit-content;
   margin: 0 2vw 5vh 2vw;
   border-radius: 10px;
@@ -63,7 +62,7 @@
 }
 .writer-bio {
   padding: 0 1vw;
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 .image-circle {
   margin: 0 auto;
@@ -93,4 +92,58 @@
   display: block;
   margin: 2vh auto 0 auto;
   color: #0476d0;
+}
+.read-more {
+  font-weight: 700;
+}
+.read-more:hover {
+  cursor: pointer;
+}
+.more-details-container {
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.582);
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+}
+.more-details {
+  top: 10px;
+  margin: auto;
+  z-index: 1000;
+  /* width: 330px; */
+  display: block;
+  position: relative;
+  background-color: white;
+}
+.close-details {
+  left: -140px;
+  top: 5px;
+  opacity: 1;
+  color: rgb(177, 169, 169) !important;
+  transition: all 0.6s;
+  position: relative;
+  stroke-width: 60px;
+}
+.close-details:hover {
+  cursor: pointer;
+  color: #e2dddd !important;
+}
+
+@media screen and (max-width: 550px) {
+  .more-details {
+    top: 10px;
+    margin: auto;
+    z-index: 1000;
+    width: 250px;
+    display: block;
+    position: relative;
+    background-color: white;
+  }
+  .more-bio {
+    font-size: 14px !important;
+  }
+  .close-details {
+    left: -115px;
+  }
 }

@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import Intro from "../../components/Intro/Intro";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Map from "../../components/Map/Map";
-
+import VideoData from "./VideoData";
 const HomePage = () => {
   return (
     <div className="home-page">
-      <Banner />
+      <Banner Data={VideoData} />
       <div className="contact-info">
         <p>
           Call us

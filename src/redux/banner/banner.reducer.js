@@ -1,4 +1,4 @@
-import videoData from "../../components/Banner/VideoData";
+import videoData from "../../pages/HomePage/VideoData";
 import BannerActionTypes from "./banner.types";
 const INITIAL_STATE = {
   videoData: videoData,
