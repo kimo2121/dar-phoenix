@@ -7,7 +7,7 @@ const OurServices = () => {
     <div className="our-services-page">
       <div className="our-services-container">
         {ServicesData.map((item, indx) => (
-          <li className="each-topic">
+          <li key={indx} className="each-topic">
             <span>{item.title}</span>
             <p>{item.text}</p>
           </li>
