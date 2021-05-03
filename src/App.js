@@ -39,7 +39,7 @@ function App() {
           <Route exact path="/اعلان-عن-اغلفة" component={CoverDiscosure} />
           <Route exact path="/خدماتنا-المميزة" component={OurServices} />
           <Route exact path="/دعاية-و-تسويق" component={Marketing} />
-          <Route exact path="/مؤسسة-اكون-للابداع" component={AkonOrgInnov} />
+          {/* <Route exact path="/مؤسسة-اكون-للابداع" component={AkonOrgInnov} /> */}
           <Redirect to="/" />
         </Switch>
         <Footer />

@@ -7,9 +7,10 @@
   justify-content: center;
   align-items: center;
   height: 23vh;
+  color: white;
   font-size: 40px;
   font-weight: 400;
-  background: #ebebeb;
+  background: #181818;
 }
 .divider1 {
   top: 10%;

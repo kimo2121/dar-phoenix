@@ -20,12 +20,12 @@
   text-align: right;
 }
 .contactPage label {
-  color: black !important;
+  color: white;
 }
 .submit-form {
   outline: unset;
   border: 1px solid Gold;
-  color: #ffffff;
+  color: #000000;
   background-color: Gold;
   font-family: "Cairo", sans-serif;
   border-radius: 18px;

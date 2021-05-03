@@ -31,11 +31,7 @@ const ContactForm = ({ contactPage }) => {
         ))}
       </div>
 
-      <button
-        className={!contactPage ? "submit-form" : "submit-form contactPage"}
-      >
-        ارسال
-      </button>
+      <button className="submit-form">ارسال</button>
     </div>
   );
 };

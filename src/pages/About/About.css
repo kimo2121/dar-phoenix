@@ -1,6 +1,7 @@
 .about-continer {
-  background: #f7f9f8;
+  background: #000000;
   padding-bottom: 5vh;
+  color: white;
   padding-top: 5vh;
 }
 .about-images img {
