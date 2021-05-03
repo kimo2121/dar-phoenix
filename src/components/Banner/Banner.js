@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as RiIcons from "react-icons/ri";
+import * as IoIcons from "react-icons/io";
 import "./Banner.css";
 import Slider from "react-slick";
 
@@ -10,7 +11,8 @@ const Banner = ({ Data }) => {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <RiIcons.RiArrowRightSFill size={70} className="right-direction" />
+        {/* <RiIcons.RiArrowRightSFill size={95} className="right-direction" /> */}
+        <IoIcons.IoIosArrowDropright size={70} className="right-direction" />
       </div>
     );
   };
@@ -18,7 +20,9 @@ const Banner = ({ Data }) => {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <RiIcons.RiArrowLeftSFill size={70} className="left-direction" />
+        <IoIcons.IoIosArrowDropleft size={70} className="right-direction" />
+
+        {/* <RiIcons.RiArrowLeftSFill size={95} className="left-direction" /> */}
       </div>
     );
   };

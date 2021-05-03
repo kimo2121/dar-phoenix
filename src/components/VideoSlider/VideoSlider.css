@@ -16,13 +16,13 @@
 }
 .arrow {
   transform: translateY(-50%);
-  color: rgb(184, 184, 184);
+  color: rgb(255, 183, 0);
   position: absolute;
   cursor: pointer;
   z-index: 120;
 }
 .arrow:hover {
-  color: rgb(255, 255, 255);
+  color: gold;
 }
 
 .left-direction {

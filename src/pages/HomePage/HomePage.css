@@ -13,6 +13,14 @@
 .contact-info p a:hover {
   color: rgb(165, 136, 63);
 }
+.map:hover {
+  cursor: pointer;
+}
+.map img {
+  width: 90%;
+
+  margin: 0 auto;
+}
 .form-intro {
   display: flex;
   justify-content: space-around;

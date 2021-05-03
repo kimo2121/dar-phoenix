@@ -6,6 +6,7 @@ import Intro from "../../components/Intro/Intro";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import Map from "../../components/Map/Map";
 import VideoData from "./VideoData";
+import map from "../../assets/map.png";
 const HomePage = () => {
   return (
     <div className="home-page">
@@ -24,7 +25,10 @@ const HomePage = () => {
           <Link to="#">DarPhoniex@gmail.com</Link>
         </p>
       </div>
-      <Map />
+      <div className="map">
+        <img src={map} alt="" />
+      </div>
+      {/* <Map /> */}
       <div className="form-intro">
         <Intro />
         <ContactForm />

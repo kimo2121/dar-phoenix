@@ -8,6 +8,16 @@ export const Sponsors = [maktba, adve, jamalon, obeikon, amazon, nelforat];
 export const AboutVideos = [
   {
     name:
+      "الكاتبة العراقية نازك الحمراني تتحدث عن تجربتها مع العنقاء للنشر و توزيع و الترجمة",
+    url: "https://www.youtube.com/embed/zw3GqVuKi6c",
+    id: "zw3GqVuKi6c",
+    // poster: "https://img.youtube.com/vi/R-uIJJoSJ4k/hqdefault.jpg",
+    category: "main",
+    itemIndex: 2,
+    playing: "false",
+  },
+  {
+    name:
       "الكاتبة العراقية ذكرى المندلاوي تتحدث عن تجربتها مع العنقاء للنشر و توزيع و الترجمة",
     url: "https://www.youtube.com/embed/iseAmMdDGhw",
     id: "iseAmMdDGhw",
@@ -24,16 +34,6 @@ export const AboutVideos = [
     // poster: "https://img.youtube.com/vi/YMvcZRlJEvg/hqdefault.jpg",
     category: "main",
     itemIndex: 1,
-    playing: "false",
-  },
-  {
-    name:
-      "الكاتبة العراقية نازك الحمراني تتحدث عن تجربتها مع العنقاء للنشر و توزيع و الترجمة",
-    url: "https://www.youtube.com/embed/zw3GqVuKi6c",
-    id: "zw3GqVuKi6c",
-    // poster: "https://img.youtube.com/vi/R-uIJJoSJ4k/hqdefault.jpg",
-    category: "main",
-    itemIndex: 2,
     playing: "false",
   },
 ];
