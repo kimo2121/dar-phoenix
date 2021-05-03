@@ -23,7 +23,7 @@
 }
 .each-service p {
   padding-right: 2vh;
-  margin: 0;
+  margin: 1vh 0;
 }
 .each-service img {
   border-top-left-radius: 8px;

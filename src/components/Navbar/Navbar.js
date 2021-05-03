@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="nav-bar-links">
           {linksdata.map((item, indx) => (
             <Link
-              className={activeLink === item.name && "active-link"}
+              className={activeLink === item.name ? "active-link" : undefined}
               onClick={() => changeLinkDispatcher(changeLink(item.name))}
               key={indx}
               to={item.to}

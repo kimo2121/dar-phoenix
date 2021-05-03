@@ -47,7 +47,9 @@ function NavBurgerMenu() {
             <div className="burger-nav-links">
               {linksdata.map((item, indx) => (
                 <Link
-                  className={activeLink === item.name && "active-burger-link"}
+                  className={
+                    activeLink === item.name ? "active-burger-link" : undefined
+                  }
                   onClick={() => {
                     changeLinkDispatcher(changeLink(item.name));
                     // showSidebar();
