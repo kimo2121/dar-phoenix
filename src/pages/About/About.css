@@ -20,10 +20,10 @@
   align-items: center;
   object-fit: cover;
 }
-.sponsors-iamge img {
+.sponsors-container img {
   display: block;
   margin: 2vh 2vw;
-  width: 80px;
+  width: 40vw;
 }
 .about-first,
 .about-second {

@@ -19,7 +19,6 @@ const Ourwriters = () => {
     all: WritersData,
   });
   const [more, setMore] = useState(false);
-  const [bio, setBio] = useState({});
   const showMore = (indx) => {
     setMore(!more);
     setWriters({ ...writers, currentWriter: writers.all[indx] });

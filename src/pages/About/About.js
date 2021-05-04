@@ -8,6 +8,8 @@ import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import youtube from "../../assets/youtube.png";
 import whatsapp from "../../assets/whatsapp.png";
+import image from "../../assets/About/image.jpeg";
+
 import { Link } from "react-router-dom";
 const About = () => {
   return (
@@ -40,11 +42,7 @@ const About = () => {
             <br /> ( جملون - جرير - عبيكان الكترونية- نيل وفيات- جوجل بوكس -
             قارئ جرجير )
             <div className="sponsors-container">
-              {Sponsors.map((item, indx) => (
-                <div key={indx} className="sponsors-iamge">
-                  <img src={item} alt="" />
-                </div>
-              ))}
+              <img src={image} alt="" />
             </div>
           </div>
         </div>
