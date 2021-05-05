@@ -3,17 +3,20 @@
   flex-wrap: wrap;
 } */
 .marketing-container a {
-  color: white;
+  color: inherit;
   text-decoration: unset;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .signcontract {
   background-color: rgb(155, 114, 11);
 }
+
 .celebration {
   background-color: rgb(138, 6, 6);
 }
+
 .coversadv {
   background-color: rgb(60, 139, 13);
 }
@@ -30,7 +33,41 @@
 .tvinterviews {
   border-radius: 20px;
   margin: 4vh auto;
-  padding: 5vh;
-  width: 20%;
+  padding: 4vh 1vw;
+  width: 40%;
   box-shadow: 0px 0px 2px 1px white;
+}
+.signcontract:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(121, 91, 15);
+  box-shadow: 0px 0px 2px 1px rgb(121, 91, 15);
+}
+.celebration:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(138, 6, 6);
+  box-shadow: 0px 0px 2px 1px rgb(138, 6, 6);
+}
+.coversadv:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 139, 13);
+  box-shadow: 0px 0px 2px 1px rgb(60, 139, 13);
+}
+.novelspromo:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 74, 116);
+  box-shadow: 0px 0px 2px 1px rgb(11, 74, 116);
+}
+.tvinterviews:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(106, 8, 136);
+  box-shadow: 0px 0px 2px 1px rgb(106, 8, 136);
+}
+@media only screen and (max-width: 550px) {
+  .signcontract,
+  .celebration,
+  .coversadv,
+  .novelspromo,
+  .tvinterviews {
+    width: 55%;
+  }
 }
