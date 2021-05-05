@@ -1,9 +1,10 @@
 export const ContractPartyData = [
   {
-    name: "حفل توقيع مجموعة القصصية لولا السواد ماكانت الأحلام",
-    url: "https://www.youtube.com/embed/QDFkMFu5eHk",
-    id: "TzR5-U0-ysE",
-    poster: "https://i.ytimg.com/vi/QDFkMFu5eHk/hqdefault.jpg",
+    name:
+      "حفلة توقيع المجموعة القصصية لولا السواد ماكان الأحلام بيضاء للكاتبة فوزية أبوبكري",
+    url: "https://www.youtube.com/embed/xgJN_3YE4GY",
+    id: "xgJN_3YE4GY",
+    poster: "https://i.ytimg.com/vi/xgJN_3YE4GY/hqdefault.jpg",
     category: "main",
     itemIndex: 0,
     playing: "false",

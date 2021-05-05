@@ -8,10 +8,6 @@ const Marketing = () => {
       {MarketingData.map((item, indx) => (
         <div key={indx} className={item.name}>
           <Link to={item.to}>{item.text}</Link>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
       ))}
     </div>

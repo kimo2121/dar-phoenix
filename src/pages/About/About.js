@@ -42,7 +42,16 @@ const About = () => {
             بالإبداع .. ( جملون - جرير - عبيكان الكترونية- نيل وفيات- جوجل بوكس
             - قارئ جرجير )
           </p>
-          <img src={image} alt="" />
+          <iframe
+            width="727"
+            height="409"
+            src="https://www.youtube.com/embed/jX2UTQ6TGDQ"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          {/* <img src={image} alt="" /> */}
         </div>
         <div className="about-fourth">
           <span>٤. اتصل بنا : </span>

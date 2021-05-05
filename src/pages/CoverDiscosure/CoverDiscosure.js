@@ -16,13 +16,13 @@ const CoverDiscosure = () => {
   };
   return (
     <div>
-      {imageCovers && (
+      {/* {imageCovers && (
         <Album
           imageCovers
           onImageHandler={onImageHandler}
           Data={imageCoversData}
         />
-      )}
+      )} */}
       {mockupCovers && (
         <Album
           mockupCovers
@@ -33,7 +33,7 @@ const CoverDiscosure = () => {
       <PageHeader Children="البومات" />
       <div className="thevideos-component">
         <div className="video-container">
-          <div className="each-video-container">
+          {/* <div className="each-video-container">
             <div
               onClick={() => {
                 onImageHandler();
@@ -46,7 +46,7 @@ const CoverDiscosure = () => {
               <img className="mockup-poster" src={imageCoversData[3]} alt="" />
             </div>
             <p className="video-promo-name">Album</p>
-          </div>
+          </div> */}
           <div className="each-video-container">
             <div
               onClick={() => {
