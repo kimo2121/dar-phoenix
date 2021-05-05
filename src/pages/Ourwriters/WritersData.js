@@ -17,28 +17,36 @@ import maan from "../../assets/writers/maan.jpeg";
 import somaia from "../../assets/writers/somaia.jpeg";
 import norseen from "../../assets/writers/norseen.jpeg";
 export const countriesdata = [
-  { name: "مصر", country: "egypt" },
-  { name: "سوريا", country: "syria" },
+  { name: "مصر", country: "مصر" },
+  { name: "سوريا", country: "سوريا" },
   // { name: "ليبيا", country: "libia" },
   { name: "الجزائر", country: "gaza`er" },
   // { name: "فلسطين", country: "palastine" },
   { name: "المغرب", country: "morocco" },
-  { name: "السعودية", country: "saudi" },
+  { name: "السعودية", country: "السعودية" },
   { name: "الصومال", country: "somalia" },
   { name: "العراق", country: "iraq" },
 ];
 
 export const WritersData = [
   {
+    img: norseen,
+    name: "نورسين محمد",
+    books:
+      "كاتبة و روائية صومالية ، ولدت في عاصمة الصومال مقديشو وبسبب حرب الأهلية انتقلت الى موطنها الثاني - الإمارات العربية المتحدة  . مدير عام لمؤسسة  أكون أو أكون للابداع العربي .،  مدير عام لدار العنقاء للنشر و توزيع و الترجمة ، و هي دار نشر عربية مركزها في مصر- القاهرة.",
+    // facebook: "https://www.facebook.com/moutaz.hameid",
+    country: "الصومال",
+  },
+  {
     img: amal,
-    name: "الأستاذة آمال بلهول",
+    name: "آمال بلهول",
     books: `من مواليد 13 / 04 / 1986 بسطيف / الجزائر 
     خريجة كلية الحقوق في جامعة منتوري بقسنطينة سنة 2010 _ لسانس قانون عقاري 
     حاصلة على شهادة ماستر 2 _ قانون التوثيق بنفس الجامعة سنة 2012
     متحصلة على شهادة الكفاءة المهنية للمحاماة سنة 2013 
     تشغل حاليا منصب موظفة مكلفة بالدراسات في مؤسسة عمومية`,
     // facebook: "https://www.facebook.com/hishameid20",
-    country: "gaza`er",
+    country: "الجزائر",
   },
   {
     img: salafa,
@@ -46,7 +54,7 @@ export const WritersData = [
     books:
       "حاصلة علي بكاليريوس الخدمة الاجتماعية ودبلوما في مصرية عاشقة للكتابة وحائزة علي مسابقة الدكتورة سعاد الصباح للابداع الفكري والادبي عن نقد لافضل عشر روايات ادبية",
     // facebook: "https://www.facebook.com/hishameid20",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: aml,
@@ -54,7 +62,7 @@ export const WritersData = [
     books: `من مواليد السعودية في شهر ديسمبر 1992 ، خريجة كلية إدارة الأعمال في جامعة جازان،
     كانت بدايتي الفعلية في الكتابة منذ ١٢ سنة و انا بعمر ١٧ عاماً و مازال حلمي يتربع العرش دون اضمحلال الى أن وصلت إليكم اليوم لأقدم لكم روايتي"سلسلة عالم الداركنيس بجزئها الأول" بعنوان"وليد الظلام و لعنة الظِل`,
     // facebook: "https://www.facebook.com/hishameid20",
-    country: "saudi",
+    country: "السعودية",
   },
   {
     img: weaam,
@@ -66,7 +74,7 @@ export const WritersData = [
     معلمة لغة عربية و موجهة تعليمية، مديرة العلاقات العامة في مبادرة أكون للابداع العربي
     ووكيلة دار العنقاء للنشر والتوزيع`,
     // facebook: "https://www.facebook.com/hishameid20",
-    country: "syria",
+    country: "سوريا",
   },
   {
     img: adel,
@@ -74,7 +82,7 @@ export const WritersData = [
     books:
       "من مواليد بغداد عام 1964م أكملت دراستي الابتدائية و المتوسطة و الثانوية في بغداد و تخرجت من جامعة بغداد كلية التربية قسم اللغة العربية متزوج ولدي ولدان وثلاث بنات.. بدأت كتابة الشعر العمودي بعمر العشرين عاما وقبلها كانت محاولات في الشعر الحر والخواطر.. موظف في وزارة الإعمار والإسكان.",
     // facebook: "https://www.facebook.com/hishameid20",
-    country: "iraq",
+    country: "العراق",
   },
 
   {
@@ -83,7 +91,7 @@ export const WritersData = [
     books:
       "كاتبة مصرية تبلغ  : 19 سنه. ، مؤهلها : خدمه اجتماعيه. ، أعمالها : قاسي أحب طفلة.. ذبحني معشوقي..",
     // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: eman,
@@ -91,7 +99,7 @@ export const WritersData = [
     books:
       "من مواليد سوريا حلب نهاية العام ١٩٨٨ .. خريجة كلية الهندسة المعلوماتية في جامعة حلب .. و مؤلفة رواية اللعنة المقدسة",
     // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "syria",
+    country: "سوريا",
   },
   {
     img: hala,
@@ -99,7 +107,7 @@ export const WritersData = [
     books:
       " مواليد السعودية وُلِدتُ في عام ١٩٩٨ في اليوم الثامن من شهر فبراير  ، حاصِلَة على درجة البكالوريوس في التمريض وعلى مرتبة الشرف الثانية وأملك عدة شهادات تفوّق .",
     // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "saudi",
+    country: "السعودية",
   },
   {
     img: yasser,
@@ -107,14 +115,14 @@ export const WritersData = [
     books:
       "مواليد  مدينة بورسعيد . تخرج من كلية العلوم عام 1991 . قسم الجيولوجيا والكيمياء . جامعة المنصورة . أحب الأدب والقراءة من صغره . وبدأ في كتابة أعماله  بعد تخرجه. مزج الدراسة العلمية بأسلوبه حتي قدم لنا هذه الرواية الأدبية. التي تدور أحداثها الحقيقية في الفترة من عام 1900 وحتي 1990 يرويها الأبناء عن الآباء والاجداد",
     // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: abbi,
     name: "عبي يوسف",
     books: `حاصل على شهادة اجازة في الاقتصاد ، حاصل على شهادة في الصحافة، صحفي باحدى المنابر الاعلامية، صاحب مشروع "موهبتي رأس مالي " لتشغيل الشباب عن طريق الموهبة، صاحب جمعية طريق النجاح ، مسير مدرسة خاصة ، ابن مدينة ازرو (الصخرة) ، ترعرعت في مدينة مكناس ، من المملكة المغربية الشريفة،`,
     // facebook: "https://www.facebook.com/profile.php?id=100004635311960",
-    country: "morocco",
+    country: "المغرب",
   },
   {
     img: myas,
@@ -123,7 +131,7 @@ export const WritersData = [
     الكتابة بالنسبة لي روحٌ اتذوق من خلالها طعم الحياة.
     أعيش حاليا في المملكة العربية السعودية.`,
     // facebook: "https://www.facebook.com/azedine.djafri",
-    country: "syria",
+    country: "سوريا",
   },
   {
     img: salha,
@@ -131,7 +139,7 @@ export const WritersData = [
     books:
       "مواليد ابها- السعودية ، خريجة بكالريوس محاسبة، العمر اثنان وعشرون ربيعاً، كاتبه منذ الطفولة صاحبة خيال جامح وكلمات تعبر إلى دواخل القُراء،  كاتبة قصص قصيرة، وروايات.",
     // facebook: "https://www.facebook.com/azedine.djafri",
-    country: "saudi",
+    country: "السعودية",
   },
   {
     img: amlnasser,
@@ -139,7 +147,7 @@ export const WritersData = [
     books: `كاتبه روائية مصرية، 
     تبلغ من العمر 23عامأ ، لقد صدر لها العديد من الأعمال الإلكترونية ، اخرها تم تحويله لسلسلة ورقية روائية بعنوان الديزل و التوأمان`,
     // facebook: "https://www.facebook.com/azedine.djafri",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: soma,
@@ -147,7 +155,7 @@ export const WritersData = [
     books:
       "من مصر -  محافظة المنوفيه ، خريجه اداب قسم آثار مصريه ، لها العديد من إصدارات الكترونية آخرها مطبوع ورقي بعنوان : لا تبكي عزيزتي",
     // facebook: "https://www.facebook.com/azedine.djafri",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: amlshafie,
@@ -155,7 +163,7 @@ export const WritersData = [
     books: ` من مصر - مدينة زقاويق ، حاصلة علة ماجستير صحة نفسية - مرشد نفسي - مترجم لغه إشارة معتمد
     عضو عامل بالجمعية العلمية للصحة النفسية -عضو مؤسس للجمعية المصرية للخدمات النفسية المتكاملة ، وصدر لها رواية : رحيل جبري`,
     // facebook: "https://www.facebook.com/azedine.djafri",
-    country: "egypt",
+    country: "مصر",
   },
   {
     img: maan,
@@ -163,7 +171,7 @@ export const WritersData = [
     books:
       "،عمري ثلاثة وثلاثون عاماً، أعيش في سوريا، أعمل موظفاً،أعيش في عائلةً دافئة التفاصيل ولديّ معنيّات والكثير الكثير من الأمل في قلبي.. لي اصدار كتاب خواطر : معنيات",
     // facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "syria",
+    country: "سوريا",
   },
   {
     img: somaia,
@@ -171,14 +179,6 @@ export const WritersData = [
     books: `طالبه في كليه الاداب جامعة القاهرة ؛ من جمهورية مصر العربية ، مواليد 23/3/2001،
     من كتاباتها :( أنتِ لي ، مُر قلبي ،ل انها أنتِ ، زوجة اخي )`,
     // facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "egypt",
-  },
-  {
-    img: norseen,
-    name: "نورسين محمد",
-    books:
-      "كاتبة و روائية صومالية ، ولدت في عاصمة الصومال مقديشو وبسبب حرب الأهلية انتقلت الى موطنها الثاني - الإمارات العربية المتحدة  . مدير عام لمؤسسة  أكون أو أكون للابداع العربي .،  مدير عام لدار العنقاء للنشر و توزيع و الترجمة ، و هي دار نشر عربية مركزها في مصر- القاهرة.",
-    // facebook: "https://www.facebook.com/moutaz.hameid",
-    country: "somalia",
+    country: "مصر",
   },
 ];

@@ -11,6 +11,7 @@ import whatsapp from "../../assets/whatsapp.png";
 import image from "../../assets/About/image.jpeg";
 
 import { Link } from "react-router-dom";
+import IconsForContact from "../../components/IconsForContact/IconsForContact";
 const About = () => {
   return (
     <div>
@@ -36,23 +37,20 @@ const About = () => {
         </div>
         <div className="about-third">
           <span>٣. تعرف على شركائنا :</span>
-          <div>
+          <p>
             نحن فخورين بأن ننضم الى أكبر الشركات العربية و العالمية التي تعتني
-            بالإبداع ..
-            <br /> ( جملون - جرير - عبيكان الكترونية- نيل وفيات- جوجل بوكس -
-            قارئ جرجير )
-            <div className="sponsors-container">
-              <img src={image} alt="" />
-            </div>
-          </div>
+            بالإبداع .. ( جملون - جرير - عبيكان الكترونية- نيل وفيات- جوجل بوكس
+            - قارئ جرجير )
+          </p>
+          <img src={image} alt="" />
         </div>
-        <div>
+        <div className="about-fourth">
           <span>٤. اتصل بنا : </span>
           <p>
             ماذا تنتظر ؟ انتهز هذه الفرصة فور .. و استثمر معنا .. لتصدح روحك
             بأغنية الولادة من جديد ..
           </p>
-          <div className="intro-icons">
+          {/* <div className="intro-icons">
             <Link to="#">
               <img src={facebook} alt="" />
             </Link>
@@ -68,7 +66,8 @@ const About = () => {
             <Link to="#">
               <img src={whatsapp} alt="" />
             </Link>
-          </div>
+          </div> */}
+          <IconsForContact />
         </div>
       </div>
     </div>

@@ -12,34 +12,25 @@
 }
 
 .sponsors-container {
-  display: flex;
-  width: 50%;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  object-fit: cover;
+  padding: 0 10vw;
 }
-.sponsors-container img {
+.about-third img {
   display: block;
-  margin: 2vh 2vw;
-  width: 40vw;
+  width: 100%;
 }
 .about-first,
-.about-second {
+.about-second,
+.about-third,
+.about-fourth {
   padding: 0 10vw;
+  margin-bottom: 5vh;
 }
 
 .about-continer div span {
   font-size: 25px;
   display: inline-block;
-  /* width: 90%; */
 }
-.about-first,
-.about-second,
-.about-third {
-  margin-bottom: 5vh;
-}
+
 .about-continer p {
   font-size: 20px;
 }

@@ -20,10 +20,14 @@ const OurServices = () => {
           <li key={indx} className={`each-topic ${item.name}`}>
             <span>{item.title}</span>
             <p className="writer-bio">
-              {item.text.slice(0, 65)}...{" "}
-              <span className="read-more" onClick={() => showSeeMore(indx)}>
+              {item.text.slice(0, 65)}...
+              <span
+                className="read-more read-more-ourservices"
+                onClick={() => showSeeMore(indx)}
+              >
                 اقرا المزيد
               </span>
+              {item?.icons}
             </p>
           </li>
         ))}

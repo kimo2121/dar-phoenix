@@ -48,7 +48,8 @@ const Ourwriters = () => {
             <div className="image-circle">
               <img className="image" src={item.img} alt="" />
             </div>
-            <p>{item.name}</p>
+            <p>الاسم: {item.name}</p>
+            <p>البلد: {item.country}</p>
             <div className="divider2"></div>
             <p className="writer-bio">
               {item.books.slice(0, 90)}...{" "}
@@ -66,7 +67,7 @@ const Ourwriters = () => {
               size="30"
             />
             <div className="more-details each-writer-intro">
-              <div className="image-circle">
+              <div className="image-circle image-circle-more">
                 <img
                   className="image image-more"
                   src={writers.currentWriter.img}
