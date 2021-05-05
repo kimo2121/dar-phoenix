@@ -27,15 +27,15 @@ const Album = ({
     );
   };
   const settings = {
-    customPaging: function (i) {
-      return (
-        <a className="image-in-thumb">
-          <img src={Data[i]} />
-        </a>
-      );
-    },
+    // customPaging: function (i) {
+    //   return (
+    //     <a className="image-in-thumb">
+    //       <img src={Data[i]} />
+    //     </a>
+    //   );
+    // },
     dots: true,
-    dotsClass: "slick-dots slick-thumb",
+    // dotsClass: "slick-dots slick-thumb",
     infinite: true,
     speed: 500,
     slidesToShow: 1,
