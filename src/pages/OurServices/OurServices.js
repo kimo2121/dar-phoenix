@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ServicesData from "./OurServicesData";
 import * as AiIcons from "react-icons/ai";
 import "./OurServices.css";
+import IconsForContact from "../../components/IconsForContact/IconsForContact";
 const OurServices = () => {
   const [topics, setTopics] = useState({
     currentTopic: {},
@@ -27,7 +28,9 @@ const OurServices = () => {
               >
                 اقرا المزيد
               </span>
-              {item?.icons}
+              <div className="services-contact-icons">
+                <IconsForContact />
+              </div>
             </p>
           </li>
         ))}

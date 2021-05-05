@@ -1,0 +1,36 @@
+/* .marketing-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.marketing-container a {
+  color: white;
+  text-decoration: unset;
+  font-size: 20px;
+}
+
+.signcontract {
+  background-color: rgb(155, 114, 11);
+}
+.celebration {
+  background-color: rgb(138, 6, 6);
+}
+.coversadv {
+  background-color: rgb(60, 139, 13);
+}
+.novelspromo {
+  background-color: rgb(11, 74, 116);
+}
+.tvinterviews {
+  background-color: rgb(106, 8, 136);
+}
+.signcontract,
+.celebration,
+.coversadv,
+.novelspromo,
+.tvinterviews {
+  border-radius: 20px;
+  margin: 4vh auto;
+  padding: 5vh;
+  width: 20%;
+  box-shadow: 0px 0px 2px 1px white;
+}

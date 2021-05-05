@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body::-webkit-scrollbar {
-  background-color: rgb(165, 125, 26);
+  background-color: rgb(134, 99, 10);
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }

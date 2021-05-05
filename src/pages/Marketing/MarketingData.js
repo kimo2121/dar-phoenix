@@ -7,10 +7,10 @@
         <Link to="/مقابلات-تلفزيونية">مقابلات تلفزيون</Link> */
 }
 const MarketingData = [
-  { text: "لحظة-توقيع-العقد", to: "/لحظة-توقيع-العقد", name: "home" },
-  { text: "حفل-توقيع", to: "/حفل-توقيع", name: "home" },
-  { text: "اعلان-عن-اغلفة", to: "/اعلان-عن-اغلفة", name: "home" },
-  { text: "برومو-روايات", to: "/برومو-روايات", name: "home" },
-  { text: "مقابلات-تلفزيونية", to: "/مقابلات-تلفزيونية", name: "home" },
+  { text: "لحظة-توقيع-العقد", to: "/لحظة-توقيع-العقد", name: "signcontract" },
+  { text: "حفل-توقيع", to: "/حفل-توقيع", name: "celebration" },
+  { text: "اعلان-عن-اغلفة", to: "/اعلان-عن-اغلفة", name: "coversadv" },
+  { text: "برومو-روايات", to: "/برومو-روايات", name: "novelspromo" },
+  { text: "مقابلات-تلفزيونية", to: "/مقابلات-تلفزيونية", name: "tvinterviews" },
 ];
 export default MarketingData;

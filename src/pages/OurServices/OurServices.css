@@ -14,8 +14,10 @@
 .read-more-ourservices {
   font-size: 16px !important;
 }
+.services-contact-icons {
+  margin-top: 2vh;
+}
 .each-topic {
-  /* text-align: right; */
   margin: 5vh 0;
   background-color: rgba(128, 128, 128, 0.473);
   padding: 5vh;
