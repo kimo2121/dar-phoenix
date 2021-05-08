@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/برومو-روايات" component={NovelPromo} />
           <Route exact path="/حفل-توقيع" component={ContractParty} />
           <Route exact path="/انشر-معنا" component={PublishWithUs} />
-          <Route exact path="/مقابلات-تلفزيونية" component={TVInterview} />
+          <Route exact path="/تلفزيون-اذاعة" component={TVInterview} />
           <Route exact path="/اعلان-عن-اغلفة" component={CoverDiscosure} />
           <Route exact path="/خدماتنا-المميزة" component={OurServices} />
           <Route exact path="/دعاية-و-تسويق" component={Marketing} />

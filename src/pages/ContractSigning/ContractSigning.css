@@ -15,8 +15,9 @@
   justify-content: center;
 }
 .each-video-container {
-  background: #ebebeb;
+  background: rgb(150, 105, 8);
   height: 55vh;
+  color: white;
   width: 358px;
   /* padding: 1vh; */
   text-align: right;

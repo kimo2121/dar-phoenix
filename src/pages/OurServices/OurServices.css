@@ -5,7 +5,14 @@
   font-size: 25px;
   margin: 0 auto;
 }
-
+.ourservices-intro {
+  background-color: rgb(255, 255, 255);
+  color: black !important;
+  padding: 5vh 0;
+  border-radius: 10px;
+  font-size: 20px !important;
+  font-weight: 700;
+}
 .our-services-page p {
   color: white;
   font-size: 18px;
@@ -82,4 +89,7 @@
 }
 .translate {
   background-color: rgb(161, 7, 66);
+}
+.coordinate {
+  background-color: rgb(150, 105, 8);
 }

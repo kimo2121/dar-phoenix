@@ -18,7 +18,7 @@
 .each-service {
   width: 100% !important;
   border-radius: 10px;
-  background-color: goldenrod;
+  background-color: rgb(150, 105, 8);
   border: 1px solid white;
   box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.205);
 }
@@ -47,7 +47,7 @@
     margin-bottom: -1.15%;
   }
   .numeric-li {
-    width: 85%;
+    width: 75%;
   }
 }
 @media only screen and (max-width: 768px) {

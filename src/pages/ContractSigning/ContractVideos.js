@@ -92,14 +92,5 @@ export const ContractVideos = [
     itemIndex: 9,
     playing: "false",
   },
-  {
-    name: "لحظة توقيع عقد رواية: أرض محرمة للروائية العراقية نسرين الجبوري",
-    url: "https://www.youtube.com/embed/YhOOrVFaFqg",
-    id: "YhOOrVFaFqg",
-    poster: "https://i.ytimg.com/vi/YhOOrVFaFqg/hqdefault.jpg",
-    category: "main",
-    itemIndex: 10,
-    playing: "false",
-  },
 ];
 export default ContractVideos;

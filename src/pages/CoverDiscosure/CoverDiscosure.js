@@ -14,6 +14,10 @@ const CoverDiscosure = () => {
   const onMockupHandler = () => {
     setMockupCovers(!mockupCovers);
   };
+  const [currentImage, setCurrentImage] = useState();
+  const makeCurrent = (indx) => {
+    setCurrentImage(indx);
+  };
   return (
     <div>
       {/* {imageCovers && (
@@ -25,6 +29,7 @@ const CoverDiscosure = () => {
       )} */}
       {mockupCovers && (
         <Album
+          currentImage={currentImage}
           mockupCovers
           onMockupHandler={onMockupHandler}
           Data={mockupCoversData}
@@ -32,6 +37,19 @@ const CoverDiscosure = () => {
       )}
       <PageHeader Children="البومات" />
       <div className="thevideos-component">
+        <div className="images-container">
+          {mockupCoversData.map((item, indx) => (
+            <div
+              className="each-mockup-image"
+              onClick={() => {
+                onMockupHandler();
+                makeCurrent(indx);
+              }}
+            >
+              <img src={item} alt="" />
+            </div>
+          ))}
+        </div>
         <div className="video-container">
           {/* <div className="each-video-container">
             <div
@@ -47,20 +65,15 @@ const CoverDiscosure = () => {
             </div>
             <p className="video-promo-name">Album</p>
           </div> */}
-          <div className="each-video-container">
-            <div
-              onClick={() => {
-                onMockupHandler();
-              }}
-              className="poster-container"
-            >
+          {/* <div className="each-video-container">
+            <div className="poster-container">
               <img className="mockup-poster" src={mockupCoversData[0]} alt="" />
               <img className="mockup-poster" src={mockupCoversData[1]} alt="" />
               <img className="mockup-poster" src={mockupCoversData[2]} alt="" />
               <img className="mockup-poster" src={mockupCoversData[3]} alt="" />
             </div>
             <p className="video-promo-name">Mochups</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

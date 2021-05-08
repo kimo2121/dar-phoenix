@@ -9,10 +9,10 @@ import image8 from "../../assets/covers/images/image8.jpg";
 import image9 from "../../assets/covers/images/image9.jpg";
 import image10 from "../../assets/covers/images/image10.jpg";
 
-import mockup1 from "../../assets/covers/mockups/mockup1.jpg";
 import mockup2 from "../../assets/covers/mockups/mockup2.jpg";
 import mockup3 from "../../assets/covers/mockups/mockup3.jpg";
 import mockup4 from "../../assets/covers/mockups/mockup4.jpg";
+import mockup1 from "../../assets/covers/mockups/mockup1.jpg";
 import mockup5 from "../../assets/covers/mockups/mockup5.jpg";
 import mockup6 from "../../assets/covers/mockups/mockup6.jpg";
 import mockup7 from "../../assets/covers/mockups/mockup7.jpg";
@@ -21,10 +21,10 @@ import mockup9 from "../../assets/covers/mockups/mockup9.jpg";
 import mockup10 from "../../assets/covers/mockups/mockup10.jpg";
 import mockup11 from "../../assets/covers/mockups/mockup11.jpg";
 export const imageCoversData = [
-  image1,
   image2,
   image3,
   image4,
+  image1,
   image5,
   image6,
   image7,

@@ -10,6 +10,7 @@ const Album = ({
   onMockupHandler,
   imageCovers,
   mockupCovers,
+  currentImage,
 }) => {
   const NextArrow = ({ onClick }) => {
     return (
@@ -38,6 +39,8 @@ const Album = ({
     // dotsClass: "slick-dots slick-thumb",
     infinite: true,
     speed: 500,
+    fade: true,
+    initialSlide: currentImage,
     slidesToShow: 1,
     slidesToScroll: 1,
     swipe: true,
