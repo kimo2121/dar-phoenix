@@ -15,14 +15,23 @@ const HomePage = () => {
         <p>
           Call us
           <br />
-          <Link to="#">201060587720+</Link>
+          <a target="_blank" href="https://wa.me/966596506866">
+            966596506866+
+          </a>
           <br />
-          <Link to="#">201279824244+</Link>
+          <a target="_blank" href="https://wa.me/201279824244">
+            201279824244+
+          </a>
         </p>
         <p>
           Email
           <br />
-          <Link to="#">DarPhoniex@gmail.com</Link>
+          <a
+            target="_blank"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=DarPhoniex@gmail.com"
+          >
+            DarPhoniex@gmail.com
+          </a>
         </p>
       </div>
       <div className="map">

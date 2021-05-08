@@ -10,7 +10,7 @@
   list-style: inside decimal;
 }
 .numeric-li {
-  font-size: 4vw;
+  font-size: 2.5vw;
   width: 45%;
   margin: 0 auto;
   margin-bottom: 7vh;
@@ -37,9 +37,8 @@
   position: relative;
 }
 .publish-intro-container {
-  background-color: gold;
   width: 93%;
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   padding: 5vh 1vw;
   border-radius: 10px;
   margin: 4vh auto;
@@ -53,6 +52,9 @@
   .each-service {
     width: 65%;
   }
+  .numeric-li {
+    font-size: 22px;
+  }
   .each-service img {
     margin-bottom: -1.15%;
   }
@@ -62,13 +64,14 @@
 }
 @media only screen and (max-width: 768px) {
   .each-service p {
-    margin: 2vh 0 !important;
+    margin: 1.3vh 0 !important;
   }
   .each-service img {
     height: auto;
     object-fit: contain;
   }
   .numeric-li {
+    font-size: 20px;
     width: 65% !important;
   }
 }
@@ -76,9 +79,18 @@
   .publish-intro-container {
     font-size: 18px !important;
   }
+  .numeric-li {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .publish-intro-container {
     font-size: 15px !important;
+  }
+  .each-service p {
+    margin: 0.8vh 0 !important;
+  }
+  .numeric-li {
+    font-size: 16px;
   }
 }

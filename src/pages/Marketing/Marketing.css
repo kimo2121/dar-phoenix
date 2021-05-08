@@ -65,8 +65,7 @@
 }
 .marketing-intro-container {
   width: 80%;
-  background-color: gold;
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   padding: 5vh 1vw;
   margin: 4vh auto;
   font-size: 20px !important;

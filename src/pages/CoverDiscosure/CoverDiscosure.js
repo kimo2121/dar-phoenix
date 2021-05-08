@@ -35,7 +35,7 @@ const CoverDiscosure = () => {
           Data={mockupCoversData}
         />
       )}
-      <PageHeader Children="البومات" />
+      <PageHeader Children="اغلفة كتبنا" />
       <div className="thevideos-component">
         <div className="images-container">
           {mockupCoversData.map((item, indx) => (

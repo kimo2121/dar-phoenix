@@ -5,25 +5,28 @@ import instagram from "../../assets/instagram.png";
 import youtube from "../../assets/youtube.png";
 import whatsapp from "../../assets/whatsapp.png";
 import "./IconsForContact.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const IconsForContact = () => {
   return (
     <div className="intro-icons">
-      <Link to="#">
+      <a target="_blank" href="https://www.facebook.com/Darphoniex/">
         <img src={facebook} alt="" />
-      </Link>
-      <Link to="#">
+      </a>
+      <a target="_blank" href="https://www.instagram.com/dar_phoniex/">
         <img src={instagram} alt="" />
-      </Link>
-      <Link to="#">
+      </a>
+      <a to="#">
         <img src={twitter} alt="" />
-      </Link>
-      <Link to="#">
+      </a>
+      <a
+        target="_blank"
+        href="https://www.youtube.com/channel/UCoATDznn5wBJSFKuCaMpsLQ"
+      >
         <img src={youtube} alt="" />
-      </Link>
-      <Link to="#">
+      </a>
+      <a target="_blank" href="https://wa.me/201060587720">
         <img src={whatsapp} alt="" />
-      </Link>
+      </a>
     </div>
   );
 };
