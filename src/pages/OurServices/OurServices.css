@@ -6,9 +6,9 @@
   margin: 0 auto;
 }
 .ourservices-intro {
-  background-color: rgb(255, 255, 255);
+  background-color: gold;
   color: black !important;
-  padding: 5vh 0;
+  padding: 5vh 1vw;
   border-radius: 10px;
   font-size: 20px !important;
   font-weight: 700;

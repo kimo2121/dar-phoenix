@@ -42,6 +42,15 @@ const Ourwriters = () => {
           </button>
         ))}
       </div> */}
+      <p className="publish-intro-container">
+        تعرف على كتاب الدار ، هؤلاء المبدعين قرروا أن يصبحوا ( العنقاء ) و أن
+        تتجدد فيهم الحياة بألف لون و لون .. <br />
+        تنفس بعمق و لا تخف من الموت ، ففي كل انبعاث من الرماد .. هناك ولادة من
+        الجديد .
+        <br />
+        دعنا نلونك بألوان الطيف السبعة .. أبرق و أزهر معنا .. لتكن أنت ( العنقاء
+        ) القادم .
+      </p>
       <div className="writers-intro">
         {writers.all.map((item, indx) => (
           <div key={indx} className="each-writer-intro">

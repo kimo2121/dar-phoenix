@@ -37,3 +37,15 @@ export const AboutVideos = [
     playing: "false",
   },
 ];
+export const AboutVideos2 = [
+  {
+    name:
+      "الكاتبة العراقية نازك الحمراني تتحدث عن تجربتها مع العنقاء للنشر و توزيع و الترجمة",
+    url: "https://www.youtube.com/embed/jX2UTQ6TGDQ",
+    id: "jX2UTQ6TGDQ",
+    // poster: "https://img.youtube.com/vi/R-uIJJoSJ4k/hqdefault.jpg",
+    category: "main",
+    itemIndex: 2,
+    playing: "false",
+  },
+];

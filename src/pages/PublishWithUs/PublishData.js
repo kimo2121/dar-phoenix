@@ -14,7 +14,7 @@ const Data = [
   { text: "التدقيق الإملائي", img: Ling },
   { text: "التحرير اللغوي", img: Edit },
   { text: "اصدار ردمك", img: Rights },
-  { text: "اخراج فصوحات", img: Ext },
+  { text: "استخراج فسح الكتاب", img: Ext },
   { text: "طباعة بجودة عالية", img: Print },
   { text: "خط الدعاية الخاصة بك", img: Adv },
   { text: "التوزيع داخل جمهورية مصر العربية و خارجها", img: Dist },

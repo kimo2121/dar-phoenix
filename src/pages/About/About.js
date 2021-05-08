@@ -2,13 +2,7 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import PageHeader from "../../components/Page-Header/PageHeader";
 import "./About.css";
-import { Sponsors, AboutVideos } from "./Data";
-import facebook from "../../assets/facebook.png";
-import twitter from "../../assets/twitter.png";
-import instagram from "../../assets/instagram.png";
-import youtube from "../../assets/youtube.png";
-import whatsapp from "../../assets/whatsapp.png";
-import image from "../../assets/About/image.jpeg";
+import { AboutVideos, AboutVideos2 } from "./Data";
 
 import { Link } from "react-router-dom";
 import IconsForContact from "../../components/IconsForContact/IconsForContact";
@@ -42,16 +36,7 @@ const About = () => {
             بالإبداع .. ( جملون - جرير - عبيكان الكترونية- نيل وفيات- جوجل بوكس
             - قارئ جرجير )
           </p>
-          <iframe
-            width="727"
-            height="409"
-            src="https://www.youtube.com/embed/jX2UTQ6TGDQ"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-          {/* <img src={image} alt="" /> */}
+          <Banner Data={AboutVideos2} />
         </div>
         <div className="about-fourth">
           <span>٤. اتصل بنا : </span>
@@ -59,23 +44,6 @@ const About = () => {
             ماذا تنتظر ؟ انتهز هذه الفرصة فور .. و استثمر معنا .. لتصدح روحك
             بأغنية الولادة من جديد ..
           </p>
-          {/* <div className="intro-icons">
-            <Link to="#">
-              <img src={facebook} alt="" />
-            </Link>
-            <Link to="#">
-              <img src={instagram} alt="" />
-            </Link>
-            <Link to="#">
-              <img src={twitter} alt="" />
-            </Link>
-            <Link to="#">
-              <img src={youtube} alt="" />
-            </Link>
-            <Link to="#">
-              <img src={whatsapp} alt="" />
-            </Link>
-          </div> */}
           <IconsForContact />
         </div>
       </div>
