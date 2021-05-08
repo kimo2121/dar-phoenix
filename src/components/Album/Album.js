@@ -34,14 +34,15 @@ const Album = ({
     //     </a>
     //   );
     // },
-    dots: true,
+    dots: false,
     // dotsClass: "slick-dots slick-thumb",
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    swipe: true,
+    nextArrow: window.innerWidth > 450 && <NextArrow />,
+    prevArrow: window.innerWidth > 450 && <PrevArrow />,
   };
   return (
     <nav className="image-slider-component">
@@ -49,8 +50,8 @@ const Album = ({
         onClick={() => {
           imageCovers ? onImageHandler() : mockupCovers && onMockupHandler();
         }}
-        className="video-slider-x-icon"
-        size="35"
+        className="video-slider-x-icon image-slider-x-icon"
+        size={window.innerWidth < 370 ? "20" : "35"}
       />
       <Slider className="image-slider-container" {...settings}>
         {Data.map((item, indx) => (
