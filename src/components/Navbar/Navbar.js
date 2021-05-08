@@ -23,12 +23,19 @@ const Navbar = () => {
             <span>
               اتصل بنا علي
               <br />
-              <Link to="#">123456789</Link>
+              <a target="_blank" href="https://wa.me/966596506866">
+                966596506866+
+              </a>
             </span>
             <span>
               البريد الالكتروني
               <br />
-              <Link to="#">e-books@gmail.com</Link>
+              <a
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=DarPhoniex@gmail.com"
+              >
+                DarPhoniex@gmail.com
+              </a>
             </span>
           </div>
         </div>
