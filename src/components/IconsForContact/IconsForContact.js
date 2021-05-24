@@ -1,11 +1,9 @@
 import React from "react";
 import facebook from "../../assets/facebook.png";
-import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import youtube from "../../assets/youtube.png";
 import whatsapp from "../../assets/whatsapp.png";
 import "./IconsForContact.css";
-// import { Link } from "react-router-dom";
 const IconsForContact = () => {
   return (
     <div className="intro-icons">
@@ -14,9 +12,6 @@ const IconsForContact = () => {
       </a>
       <a target="_blank" href="https://www.instagram.com/dar_phoniex/">
         <img src={instagram} alt="" />
-      </a>
-      <a to="#">
-        <img src={twitter} alt="" />
       </a>
       <a
         target="_blank"

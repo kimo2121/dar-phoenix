@@ -17,10 +17,7 @@ const OurServices = () => {
   return (
     <div className="our-services-page">
       <div className="our-services-container">
-        <p className="ourservices-intro">
-          اهلا بك يا صديقي المبدع ، هل انتهيت من تاليف كتابك و تريد نشره ؟<br />{" "}
-          اليك خطوات النشر إذن .
-        </p>
+        {/* <p className="ourservices-intro"></p> */}
         {topics.all.map((item, indx) => (
           <li key={indx} className={`each-topic ${item.name}`}>
             <span>{item.title}</span>
@@ -39,13 +36,8 @@ const OurServices = () => {
           </li>
         ))}
         <p className="ourservices-intro">
-          انها خطوات طويلة و مرهقة اليس كذالك ؟
-          <br />
-          دار العنقاء للنشر و توزيع و الترجمة تقوم بنيابة عنك بكل الخطوات
-          السابقة و أكثر ، فنحن نعتني بكتابك جيدا و اانت في منزلك .. و نوصله إلى
-          أي مكان في العالم .. و كل هذا بسعر مميز جدا لن تجده في أي مكان آخر.
-          <br />
-          لتجد كتابك خلال فترة وجيزة بحوار أشهر كتب الأدبية .
+          ماذا تنتظرُ؟! اتَّصل بنا على الفورِ، فالحياةُ مراهناتٌ والذَّكي هو
+          الذي يراهنُ معَ النَّاجح ..
         </p>
       </div>
       {seeMore && (

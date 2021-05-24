@@ -38,31 +38,14 @@
   width: 40%;
   box-shadow: 0px 0px 2px 1px white;
 }
-.signcontract:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(121, 91, 15);
-  box-shadow: 0px 0px 2px 1px rgb(121, 91, 15);
-}
-.celebration:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(138, 6, 6);
-  box-shadow: 0px 0px 2px 1px rgb(138, 6, 6);
-}
-.coversadv:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(60, 139, 13);
-  box-shadow: 0px 0px 2px 1px rgb(60, 139, 13);
-}
+.signcontract:hover,
+.tvinterviews:hover,
+.celebration:hover,
+.coversadv:hover,
 .novelspromo:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(11, 74, 116);
-  box-shadow: 0px 0px 2px 1px rgb(11, 74, 116);
+  opacity: 0.7;
 }
-.tvinterviews:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(106, 8, 136);
-  box-shadow: 0px 0px 2px 1px rgb(106, 8, 136);
-}
+
 .marketing-intro-container {
   width: 80%;
   color: rgb(255, 255, 255) !important;

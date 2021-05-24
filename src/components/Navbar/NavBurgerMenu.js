@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { linksdata, linksdata2 } from "./Data";
 import { changeLink } from "../../redux/navbar/navbar.actions";
 import { useDispatch, useSelector } from "react-redux";
-import Logo from "../../assets/logo2.png";
+import Logo from "../../assets/logo3.png";
 import { IconContext } from "react-icons";
 import facebook from "../../assets/facebook.png";
 import twitter from "../../assets/twitter.png";
@@ -52,7 +52,7 @@ function NavBurgerMenu() {
                   }
                   onClick={() => {
                     changeLinkDispatcher(changeLink(item.name));
-                    // showSidebar();
+                    showSidebar();
                   }}
                   key={indx}
                   to={item.to}

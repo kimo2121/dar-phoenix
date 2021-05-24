@@ -6,7 +6,7 @@
 }
 .publish-with-us li {
   color: white;
-  text-align: right;
+  text-align: center;
   list-style: inside decimal;
 }
 .numeric-li {
@@ -14,6 +14,9 @@
   width: 45%;
   margin: 0 auto;
   margin-bottom: 7vh;
+}
+.numeric-li::marker {
+  font-size: 27px;
 }
 .each-service {
   width: 100% !important;

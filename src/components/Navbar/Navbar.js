@@ -5,7 +5,7 @@ import { linksdata } from "./Data";
 import { changeLink } from "../../redux/navbar/navbar.actions";
 import { useDispatch, useSelector } from "react-redux";
 import NavBurgerMenu from "./NavBurgerMenu";
-import Logo from "../../assets/logo2.png";
+import Logo from "../../assets/logo3.png";
 
 const Navbar = () => {
   const changeLinkDispatcher = useDispatch();

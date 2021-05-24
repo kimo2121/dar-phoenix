@@ -5,7 +5,7 @@
   background-color: black;
   text-align: center;
   direction: rtl;
-  font-family: "Cairo", sans-serif;
+  /* font-family: "Cairo", sans-serif; */
 }
 .nav-bar-divider {
   height: 29vh;

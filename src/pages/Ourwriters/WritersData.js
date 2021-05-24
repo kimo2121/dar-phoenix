@@ -16,6 +16,8 @@ import amlshafie from "../../assets/writers/amlshafie.jpeg";
 import maan from "../../assets/writers/maan.jpeg";
 import somaia from "../../assets/writers/somaia.jpeg";
 import norseen from "../../assets/writers/norseen.jpeg";
+import aya from "../../assets/writers/aya.jpeg";
+import ghalia from "../../assets/writers/ghalia.jpeg";
 export const countriesdata = [
   { name: "مصر", country: "مصر" },
   { name: "سوريا", country: "سوريا" },
@@ -180,5 +182,19 @@ export const WritersData = [
     من كتاباتها :( أنتِ لي ، مُر قلبي ،ل انها أنتِ ، زوجة اخي )`,
     // facebook: "https://www.facebook.com/moutaz.hameid",
     country: "مصر",
+  },
+  {
+    img: aya,
+    name: "آية الرحمن",
+    books: ` كاتبة و روائية مصرية صدر لها  عده روايات تم نشرهم إلكترونياً و آخرها تم تحويلها ورقيا بعنوان تخطيت عشقك`,
+    // facebook: "https://www.facebook.com/moutaz.hameid",
+    country: "مصر",
+  },
+  {
+    img: ghalia,
+    name: "غالية سعود",
+    books: `انا الكاتبة غالية سعود ، سعودية الجنسية ؛ ابلغ من العمر27 ربيعًا، وها أنا اعانق حلمًا ظننته حلمًا فقط    ولكن هو بين يدي الان تمسكوا باحلامكم يا رفاق ،  لي اصدار ورقي بعنوان جنات .`,
+    // facebook: "https://www.facebook.com/moutaz.hameid",
+    country: "السعودية",
   },
 ];
